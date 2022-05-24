@@ -14,3 +14,15 @@ yarn install
 ```
 yarn dev
 ```
+
+## ビルド
+
+```
+yarn build
+```
+
+## ビルドしたファイルを実行
+
+```
+yarn start
+```

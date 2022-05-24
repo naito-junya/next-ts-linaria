@@ -7,4 +7,9 @@ module.exports = nextConfig
 
 // linaria設定
 const withLinaria = require('next-linaria');
-module.exports = withLinaria({});
+module.exports = withLinaria({
+  reactStrictMode: true,
+  linaria: {
+    classNameSlug: '[hash]_[title]',
+  },
+});

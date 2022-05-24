@@ -1,18 +1,12 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import { Style } from 'util'
 import { styled } from 'linaria/react'
-
-const Title = styled.h1`
- color: #f15f79;
-`;
-
+import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
-  return (
-    <Title>タイトルタイトルタイトルタイトル</Title>
-  )
+  return <Title>タイトルタイトルタイトルタイトル</Title>
 }
+
+const Title = styled.h1`
+  color: #f15f79;
+`
 
 export default Home
